@@ -1,0 +1,215 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html{
+    font-family: 'Raleway', sans-serif;
+    min-width: 450px;
+    min-height: 450px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+/* HEADER */
+
+header{
+    background-color: #00a0c6;
+    text-align: center;
+    height: auto;
+    padding: 40px;
+    line-height: 30px;
+    font-size: 24px;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#nominativo{
+    background-color: white;
+    color: #04adbf;
+}
+
+#sottotitolo{
+    text-transform: uppercase;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+#blocco1{
+    border: 3px solid #027794;
+    margin: auto;
+}
+
+/* MAIN */
+
+main{
+    font-size: 16px;
+}
+
+main h2{
+    text-transform: uppercase;
+    color: #027794;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+}
+
+figure{
+    text-align: center;  
+}
+
+figure img{
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+main figcaption{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+main address{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+main blockquote{
+    font-family: 'Raleway', sans-serif;
+    max-width: 450px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: #e3e3e3;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+div h3{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+div ul li{
+    margin-left: 80px;
+}
+
+strong{
+    color: #027794;
+}
+
+p{
+    line-height: 25px;
+}
+
+mark{
+    background-color: #027794;
+    color: white;
+}
+
+/* ELEMENTI NEL MAIN */
+
+hr{
+    border-top:1px dotted black;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#data, #tel, #wapp{
+    font-weight: bold;
+}
+
+#sdm{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#nmq{
+    padding-top: 10px;
+    padding-left: 5px;    
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
+#epic{
+    color: #ce6054;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+ul{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+dl{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+dt{
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+dd{
+    margin-left: 40px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: #353535;
+    border-top: 5px solid #00a0c6;
+}
+
+#footdiv1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #f0f0e4;
+}
+
+#key{
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#oppure{
+    color: #f0f0e4;
+    margin-bottom: 10px;
+}
+
+#cv{
+    color: #ce6054;
+}
+
+#autorizzazione{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #999999;
+}
+
+#copyr{
+    color: white;
+}
+

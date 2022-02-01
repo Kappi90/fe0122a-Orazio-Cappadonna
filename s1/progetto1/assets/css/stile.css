@@ -1,0 +1,146 @@
+html{
+    min-width: 450px;
+    min-height: 450px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+/* HEADER */
+
+header{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #25a2c3;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+button{
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+/* MAIN */
+
+#cwd{
+    background-image: url(../images/banner.jpg);
+    background-size: 100%;
+    background-position: center;
+    margin-bottom: 40px;
+}
+
+#round{
+    border-radius: 100%;
+    width: 60%;
+    height: 60%;
+    margin-top: 25px;
+}
+
+figure{
+    background-color: #e22d0e;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+#fig{
+    font-size: 36px;
+    color: white;
+    padding-top: 50px;
+}
+
+#pblq{
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+figcaption{
+    color: white;
+}
+
+#pceo{
+    color: white;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.aside{
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}    
+
+.imagine{
+    width: 100%;
+}
+
+.paraside{
+    padding-bottom: 40px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #25a2c3;
+    color: white;
+}
+
+#fheading{
+    color: white;
+    font-size: 40px;
+}
+
+#refooter{
+    color: white;
+}
+
+#pfooter{
+    font-size: 14px;
+    margin-top: 25px;
+    padding-bottom: 40px;
+}
+
+hr{
+    color: white;
+    width: 40%;
+    margin-top: 25px;
+}
