@@ -41,9 +41,6 @@ button{
     font-weight: bold;
 }
 
-
-
-/*<div class="chiediInfo"><button type="button" href="contatti.html">Chiedi info</button></div>*/
 h2{
     font-size: 30px;
     margin-bottom: 25px;
@@ -91,6 +88,21 @@ header nav li{
 header nav li a{
     text-decoration: none;
     margin-right: 15px;
+}
+
+.fa-map-marker-alt{
+    color: red;
+    margin-bottom: 25px;
+}
+
+.fa-user-circle{
+    color: red;
+    margin-bottom: 25px;
+}
+
+.fa-comment-dots{
+    color: red;
+    margin-bottom: 25px;
 }
 
 
@@ -293,7 +305,7 @@ footer{
     margin-bottom: 20px;
 }
 
-.fa-facebook {
+.fa-facebook-square {
     background: #f31818;
     color: white;
     padding: 4px;
@@ -306,7 +318,7 @@ footer{
 
 }
 
-.fa-instagram{
+.fa-instagram-square{
     background: #f31818;
     color: white;
     padding: 4px;
