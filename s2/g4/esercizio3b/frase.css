@@ -1,0 +1,27 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+
+div{
+    border: 2px solid grey;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px 25px;
+    line-height: 25px;
+}
+
+.parole i:nth-child(1), .parole i:nth-child(3){
+    display: none;
+ }
+     .parole {
+         color: rgb(131, 156, 201);
+          
+     }
+ 
