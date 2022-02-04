@@ -118,7 +118,7 @@ header nav li a{
     height: 200px;
     width: 120px;
     transform: scale(1);
-    animation: pulse 2s infinite;
+    animation: pulse 1s infinite;
   }
 
 @keyframes pulse{
@@ -386,6 +386,7 @@ footer{
     .foot{
         flex-direction: row;
         flex-wrap: nowrap;
+        justify-content: space-evenly;
     }
 
     #footerInside{
@@ -400,11 +401,15 @@ footer{
     }
     
     #pDueimg{
+        padding: 15px;
         margin: 15px 25px;
+    }
+    .wearecoder{
+        justify-content: space-evenly;
     }
 
     .table{
-        margin-left: 28%;
+        margin-left: 32%;
     }
 
     #form{
@@ -414,6 +419,7 @@ footer{
     
     .contatti{
          flex-direction: row;
+         justify-content: space-evenly;
      }
 
      #inviamex{
