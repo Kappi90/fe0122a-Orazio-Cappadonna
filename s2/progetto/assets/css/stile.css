@@ -75,8 +75,6 @@ header{
     box-shadow: 3px 3px 10px #d3d3d3;
 }
 
-
-
 header nav li{
     display: inline-block;
     list-style: none;
@@ -90,22 +88,9 @@ header nav li a{
     margin-right: 15px;
 }
 
-.fa-map-marker-alt{
+.fa-ellipsis-h{
     color: red;
-    margin-bottom: 25px;
 }
-
-.fa-user-circle{
-    color: red;
-    margin-bottom: 25px;
-}
-
-.fa-comment-dots{
-    color: red;
-    margin-bottom: 25px;
-}
-
-
 
 /* MAIN INDEX */
 
@@ -154,6 +139,29 @@ header nav li a{
     padding: 25px 15px;
 }
 
+.fa-map-marker-alt{
+    color: red;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.fa-user-circle{
+    color: red;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.fa-comment-dots{
+    color: red;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.fa-meh, .fa-grin-hearts, .fa-grin-alt{
+    color: red;
+    font-size: 30px;
+}
+
 .article{
     margin: 20px;
     display: flex;
@@ -195,6 +203,7 @@ header nav li a{
 }
 
 /* MAIN CHI SIAMO */
+
 .wearecoder{
     text-align: center;
     padding: 20px;
@@ -206,11 +215,15 @@ header nav li a{
     margin-bottom: 50px;
 }
 
-#pDueimg{
-    margin: 20px 15px;
+.foto{
+    padding: 20px;
 }
 
-table{
+.secTable{
+    display: none;
+}
+
+.table{
     text-align: left;
     border: none;
     background-color: #d2dce7;
@@ -218,10 +231,11 @@ table{
     line-height: 1.8;
 }
 
-caption{
+.firstC{
     text-align: center;
     font-size: 24px;
     padding: 10px;
+    background-color: white;
 }
 
 #tr2{
@@ -230,6 +244,7 @@ caption{
 
 #td1{
     font-weight: bold;
+    padding: 10px;
 }
 
 /* MAIN CONTATTI */
@@ -244,12 +259,11 @@ caption{
     flex-direction: column;
 }
 
-
 .input1{
     display: block;
     height: 20px;
     width: 250px;
-    margin-left: 20px;
+    margin-left: 25%;
     margin-bottom: 20px;
     padding: 5px;
     border: 1px solid #d3d3d3;
@@ -259,8 +273,8 @@ caption{
 .input2{
     display: block;
     height: 50px;
-    width: 250px;
-    margin-left: 20px;
+    width: 257px;
+    margin-left: 25%;
     border: 1px solid #d3d3d3;
     box-shadow: -2px -2px 5px #d3d3d3;
 }
@@ -301,6 +315,10 @@ footer{
     flex-direction: column;
 }
 
+#pH4{
+    width: 300px;
+}
+
 .socialLinks{
     margin-bottom: 20px;
 }
@@ -335,7 +353,7 @@ footer{
 
     header nav ul{
         position: absolute;
-        top: 8.8vh;
+        top: 7.8vh;
         right: -100%;
         background-color: white;
         width: 100vw;
@@ -360,6 +378,8 @@ footer{
 }
 
 @media screen and (min-width:768px){
+
+/* responsive index */
 
     .btnMenu{
         display: none;
@@ -406,22 +426,21 @@ footer{
         padding: 5px;
     }
     
+    /* responsive chi siamo */
+
+    .chisiamo{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
     .dueimg{
         display: flex;
         flex-direction: row;
         margin-bottom: 50px;
     }
     
-    #pDueimg{
-        padding: 15px;
-        margin: 15px 25px;
-    }
     .wearecoder{
         justify-content: space-evenly;
-    }
-
-    .table{
-        margin-left: 32%;
     }
 
     #form{
@@ -437,6 +456,50 @@ footer{
      #inviamex{
          margin-left: 80px;
      }
+
+     .table{
+         display: none;
+     }
+
+     .secTable{
+        display: block;
+        border-collapse: collapse;
+        width: 70%;
+        padding-top: 40px;
+        margin-left: 15%;
+        margin-bottom: 25px;
+        line-height: 1.8;
+        
+    }
+    
+    caption{
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    th, td{
+        padding: 20px;
+        text-align: center;
+        border-right: 1px solid #d2dce72f;
+    }
+    
+    tbody tr:nth-of-type(odd){
+        background-color: #d2dce7;
+    }
+    
+    th{
+        background-color: #5f82a3;
+        color: white;   
+    }
+    
+    tr{
+        height: 60px;
+    }
+    
+    #trSmall{
+        height: 40px;
+    }
+    
 
 
 }
@@ -476,5 +539,21 @@ footer{
         text-align: center;
         margin-left: 20px;
     }
+
+    .table{
+        display: none;
+    }
+
+    .secTable{
+        display: block;
+    }
+
+    .secTable{
+        border-collapse: collapse;
+        width: 70%;
+        margin-left: 25%;
+        
+    }
+    
     
 }
