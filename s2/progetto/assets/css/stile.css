@@ -1,6 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 body{
     font-family: 'Fira Sans', sans-serif;
+    width: 100%;
 }
 
 main{
@@ -41,26 +42,6 @@ button{
     font-weight: bold;
 }
 
-h2{
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-p{
-    line-height: 1.5;
-}
-
-h3{
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
-h4{
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 /* HEADER */
 header{
     display: inline;
@@ -73,6 +54,14 @@ header{
     justify-content: space-between;
     padding: 15px 15px;
     box-shadow: 3px 3px 10px #d3d3d3;
+}
+
+#logo{
+    margin-left: 10%;
+}
+
+nav{
+    margin-right: 10%;
 }
 
 header nav li{
@@ -97,7 +86,7 @@ header nav li a{
 .banner{
     background-image: url(../images/banner.jpg);
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     padding: 25px;
     text-align: left;
@@ -282,8 +271,7 @@ header nav li a{
 #inviamex{
      padding: 10px;
      width: 150px;
-     margin: 15px 0;
-    
+     margin: 15px 0;  
 }
 
 .sede{
@@ -307,13 +295,14 @@ footer{
 
 .foot{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .newsletter{
     display: flex;
     flex-direction: column;
 }
+
 
 #pH4{
     width: 300px;
@@ -333,14 +322,12 @@ footer{
     background: #f31818;
     color: white;
     padding: 4px;
-
 }
 
 .fa-instagram-square{
     background: #f31818;
     color: white;
     padding: 4px;
-
 }
 
 #pFooter{
@@ -354,10 +341,11 @@ footer{
     header nav ul{
         position: absolute;
         top: 7.8vh;
-        right: -100%;
+        right: -110%;
         background-color: white;
         width: 100vw;
         height: 5vh;
+        display: none;
     }
     
     .btnMenu{
@@ -366,6 +354,7 @@ footer{
     
     .btnMenu:checked ~ nav ul {
         right: 0;
+        display: inline;
     }
     
     .icoMenu{
@@ -420,23 +409,31 @@ footer{
         flex-wrap: nowrap;
         justify-content: space-evenly;
     }
+    .chisiamo{
+        margin-left: 180px;
+        margin-right: 180px;
+    }
 
     #footerInside{
         margin-right: 15px;
         padding: 5px;
     }
+
+    #pFooter{
+        text-align: center;
+    }
     
     /* responsive chi siamo */
 
     .chisiamo{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 90px;
+        margin-right: 180px;
     }
 
     .dueimg{
         display: flex;
         flex-direction: row;
-        margin-bottom: 50px;
+        margin-bottom: 150px;
     }
     
     .wearecoder{
@@ -453,11 +450,11 @@ footer{
          justify-content: space-evenly;
      }
 
-     #inviamex{
+    #inviamex{
          margin-left: 80px;
      }
 
-     .table{
+    .table{
          display: none;
      }
 
@@ -465,16 +462,15 @@ footer{
         display: block;
         border-collapse: collapse;
         width: 70%;
-        padding-top: 40px;
         margin-left: 15%;
-        margin-bottom: 25px;
+        margin-bottom: 35px;
         line-height: 1.8;
-        
-    }
+        }
     
     caption{
         font-weight: bold;
         font-size: 25px;
+        margin-top: 25px;
     }
 
     th, td{
@@ -499,8 +495,6 @@ footer{
     #trSmall{
         height: 40px;
     }
-    
-
 
 }
 
@@ -554,6 +548,5 @@ footer{
         margin-left: 25%;
         
     }
-    
-    
+       
 }
