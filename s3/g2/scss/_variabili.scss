@@ -1,0 +1,60 @@
+/* H1 */
+
+$font-size-h1-small:20px;
+$font-size-h1-medium:30px;
+$font-size-h1-large:40px;
+
+/* H2*/
+
+$font-size-h2-small:18px;
+$font-size-h2-medium:22px;
+$font-size-h2-large:26px;
+
+/* P */
+
+$font-size-par-small:18px;
+$font-size-par-medium:20px;
+$font-size-par-large:22px;
+
+$line-height-small: 1.1;
+$line-height-medium: 1.2;
+$line-height-large: 1.3;
+
+
+@mixin h1 {
+    font-size: $font-size-h1-large;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(100, 9, 9);
+}
+
+
+@mixin h2 {
+    font-size: 26px;
+    text-align: left;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+
+@mixin paragrafi {
+    font-size: 22px;
+    line-height: $line-height-large;
+    color: rgb(25, 97, 25);   
+}
+
+@mixin a {
+    color: rgb(15, 63, 128);
+    text-transform: uppercase;   
+}
+
+@mixin article {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(250, 235, 215, 1);
+    line-height: 1.5;
+    
+}
+

@@ -1,0 +1,31 @@
+$padding-nav: 15px;
+$margin-header: 15px;
+
+header{
+    background-color: rgba(250, 235, 215, 1);
+    margin: $margin-header;
+    nav{
+        text-align: center;
+        font-size: 24px;
+        padding: $padding-nav;
+        li{
+            list-style: none;
+            display: inline-block;
+            margin-right: $margin-header;
+            a{
+                display: inline-block;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: rgba(240, 68, 0, 0.849);
+                border: 1px solid rgb(194, 194, 194);
+                border-radius: 25px;
+                padding: $padding-nav;
+                transition: transform 1s;
+                &:hover{
+                    background-color: aquamarine;
+                    transform: scale(1.2, 1.2);
+                }
+            }
+        }
+    }
+}

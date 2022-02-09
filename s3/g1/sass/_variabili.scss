@@ -1,0 +1,51 @@
+$body-width: 100%;
+$back-color-header: rgba(57, 207, 195, 0.808);
+$padding-container: 20px;
+$back-img: url("../img/jGlzr.png");
+
+
+body{
+    width: $body-width;
+    background-image: $back-img;
+}
+
+header{
+    text-align: center;
+}
+
+  
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    li{
+        display: inline-block;
+        list-style: none;
+        margin-top: 20px;
+        font-size: 24px;
+        a{
+            text-decoration: none;
+            margin-right: 15px;
+            padding: 5px;
+            color: bisque;
+            font-size: 32px;
+            border: 2px dotted rgb(204, 187, 35);
+        }
+    }
+}
+
+a:hover{
+    color: rgba(240, 68, 82, 0.726);
+}
+
+p{
+    color: rgb(58, 58, 58);
+    font-size: 24px;
+}
+
+h1{
+    font-size: 40px;
+    color: bisque;
+}
+
+

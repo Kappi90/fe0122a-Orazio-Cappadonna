@@ -1,0 +1,32 @@
+$margin-aside: 50px;
+
+
+aside{
+    background: linear-gradient(115deg, rgba(76, 147, 141, 1) 25%, rgba(123,215,204,1) 75%);
+    width: 50%;
+    margin: 15px;
+    height: 300px;
+    ul{ 
+        display: block;
+        width: auto;
+        margin-top: $margin-aside;
+        margin-right: $margin-aside;
+        li{
+            text-align: center;
+            text-transform: uppercase;
+            color: rgb(250, 204, 2);
+            list-style: none;
+            margin-bottom: 15px;     
+            font-size: 24px;
+            transition: transform 1s;
+            &:hover{
+                transform: scale(1.2, 1.2);
+                background-color: aqua;
+            }
+        }
+    }
+
+    @media only screen and(min-device-width:480px) and (max-device-width:768px){
+        background: linear-gradient(115deg, rgb(12, 1, 110) 25%, rgba(123,215,204,1) 75%);
+    }
+}
