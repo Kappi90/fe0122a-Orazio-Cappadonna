@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md" id="navHeader">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex w-50">EasyTravel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#btnCollapseNav">
+                    <span class="navabar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="btnCollapseNav">
+                    <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-whatsapp"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Come contattarci</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="container">
+            <h1 class="title text-center">Viaggia con noi!</h1>
+            <div class="d-flex col-12">
+                <div class="col-lg-2 col-md-4 col-12 w-100">
+                    <h2 class="text-center">Perché sceglierci</h2>
+                    <p>Oggi puoi cercare di tutto, ma è difficile trovare l’assistenza che meriti. Serve una nuova
+                        offerta, che unisca il dinamismo del mondo contemporaneo con i servizi di un grande leader
+                        turistico. Ecco perché EasyTravel si trasforma, andando incontro a chi vuole libertà,
+                        flessibilità e affidabilità.
+                        Più di 40 destinazioni tra cui scegliere. Oltre 100.000 strutture ricettive. Massima elasticità
+                        nella pianificazione del viaggio. Tante esperienze inedite selezionate con cura dai nostri
+                        controller. Tutto questo, con le garanzie e la convenienza di sempre. Perché ognuno possa vivere
+                        esattamente la vacanza che sta aspettando.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CAROSELLO -->
+
+        <div class="container">
+            <div class="carousel slide" data-bs-ride="carousel" id="mioCarousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="mioCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="mioCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="mioCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/mountain.jpg" class="d-block w-100" alt="slide 1">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/NIK95.lead_.GettyImages_1037349126.jpg" class="d-block w-100" alt="slide 2">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/promuoviamo-paesaggio-italiano.jpg" class="d-block w-100" alt="slide 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#mioCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#mioCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- CARD -->
+
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom text-center">Le nostre offerte!</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg"
+                        style="background-image: url(img/maldive.jpg)">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="card">Viaggio Maldive</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="img/maldive.jpg" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <small>Maldive</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <small>7d</small>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center"><a href="#" class="btn btn-primary">Prenota!</a></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg"
+                        style="background-image: url(img/hawaii.jpg);">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="card">Viaggio Hawaii</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="img/hawaii.jpg" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    <small>Hawaii</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <small>9d</small>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center"><a href="#" class="btn btn-primary">Prenota!</a></div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden rounded-5 shadow-lg"
+                        style="background-image: url(img/filippine.jpg);">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                            <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="card">Viaggio Filippine</h2>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <img src="img/filippine.jpg" alt="Bootstrap" width="32" height="32"
+                                        class="rounded-circle border border-white">
+                                </li>
+                                <li class="d-flex align-items-center me-3">
+                                    
+                                    <small>Filippine</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <small>12d</small>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer text-center"><a href="#" class="btn btn-primary">Prenota!</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD -->
+
+        <!-- Logo Partnership -->
+        <section class="logo-list">
+
+            <h2 class="text-center">Le nostre partnership</h2>
+
+            <br>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <a href="#"><img src="img/bic-logo-620x230.jpg" width="250" height="50" class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <a href="#"><img src="img/logo-bar.png" width="250" height="50" class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <a href="#"><img src="img/amazon-logo.png" width="250" height="50" class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <a href="#"><img src="img/YouTube_Logo_2017.svg.png" width="250" height="50"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <a href="#"><img src="img/findomestic-banca-logo.png" width="250" height="50"
+                                class="img-fluid"></a>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <a href="#"><img src="img/atp-logo.jpg" width="250" height="50" class="img-fluid"></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Logo Partnership -->
+
+    </main>
+
+    <div class="container">
+        <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"></svg>
+                </a>
+                <span id="spanFooter">&copy; 2021 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"></a><i class="bi bi-twitter" id="socialFooter"></i></li>
+                <li class="ms-3"><a class="text-muted" href="#"></a><i class="bi bi-whatsapp" id="socialFooter"></i></li>
+                <li class="ms-3"><a class="text-muted" href="#"></a><i class="bi bi-facebook" id="socialFooter"></i></li>
+            </ul>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

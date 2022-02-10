@@ -1,0 +1,47 @@
+@import 'function';
+
+
+
+$margin: 25px;
+$padding: 15px;
+$bg: linear-gradient(0deg, rgba(16,144,213,1) 34%, rgba(5,57,89,1) 76%);
+
+body{
+    background: linear-gradient(3deg, rgba(31,201,175,1) 34%, rgb(102, 200, 93) 76%);
+}
+
+#navHeader{
+    background: $bg
+}
+
+h1{
+    text-transform: uppercase;
+    color: bisque;
+    margin: $margin;
+}
+
+#card{
+    text-align: center;
+    color: rgb(255, 226, 231);
+}
+
+p{
+    margin: $margin;
+    padding: $padding;
+    line-height: 1.3;
+    font-size: 22px;
+}
+
+small{
+    color: rgb(255, 2, 2);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#socialFooter{
+    color: red;
+}
+
+#spanFooter{
+    color: rgba(255, 0, 0, 0.658);
+}
