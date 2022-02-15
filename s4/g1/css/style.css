@@ -1,0 +1,21 @@
+/* line 1, ../Epicode School/Lezioni/s4/g1/scss/style.scss */
+h1 {
+  background-color: aquamarine;
+}
+
+/* line 5, ../Epicode School/Lezioni/s4/g1/scss/style.scss */
+p {
+  font-size: 16px;
+}
+
+/* line 9, ../Epicode School/Lezioni/s4/g1/scss/style.scss */
+#colore {
+  color: #000;
+}
+
+/* line 13, ../Epicode School/Lezioni/s4/g1/scss/style.scss */
+#btn {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */

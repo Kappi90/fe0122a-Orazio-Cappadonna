@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1 id="colore" onclick="changeColor()">Esercizio giorno 1</h1>
+
+    <button onclick="changeColor()"> Clicca e cambia colore</button>
+
+    <h2 id="prova">Cambio testo</h2>
+
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem ex at nisi quidem, nulla placeat explicabo possimus inventore architecto sunt eligendi incidunt excepturi voluptate cum ipsa repudiandae nam aliquid?</p>
+
+    <button onclick="fontParagrafo()">Avanti</button>
+    <button  id="btn" onclick="reSizefontParagrafo()">Indietro</button>
+
+    <script>
+
+        document.getElementById('prova').innerHTML = 'Il testo è cambiato';
+
+        var nome = "Orazio";
+        var Nome = "Aleksanderi";
+        console.log(nome + Nome);
+
+    </script>
+
+
+    <script src="js/myScript.js"></script>
+<br>
+    <script>
+        document.write(somma());
+    </script>
+
+</body>
+</html>
