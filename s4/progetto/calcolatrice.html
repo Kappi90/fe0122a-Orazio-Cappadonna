@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <script src="js/calc.js"></script>
+    <link rel="stylesheet" href="css/calc.css">
+    <script src="https://kit.fontawesome.com/a6a19e53dd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="container">
+
+        <h1>Calculator</h1>
+        
+        <input type="text" id="display">
+    
+    
+        <div class="box">
+            <button id="1" onclick="inpuTask(this)">1</button>
+            <button id="2" onclick="inpuTask(this)">2</button>
+            <button id="3" onclick="inpuTask(this)">3</button>
+            <button class="simboli" id="/" onclick="inpuTask(this)">/</button>
+        </div>
+    
+        <div class="box">
+            <button id="4" onclick="inpuTask(this)">4</button>
+            <button id="5" onclick="inpuTask(this)">5</button>
+            <button id="6" onclick="inpuTask(this)">6</button>
+            <button class="simboli" id="*" onclick="inpuTask(this)">X</button>
+        </div>
+    
+        <div class="box">
+            <button id="7" onclick="inpuTask(this)">7</button>
+            <button id="8" onclick="inpuTask(this)">8</button>
+            <button id="9" onclick="inpuTask(this)">9</button>
+            <button class="simboli" id="-" onclick="inpuTask(this)">-</button>
+        </div>
+    
+        <div class="box">
+            <button class="simboli" id="C" onclick="resetCalculator()">C</button>
+            <button id="0" onclick="inpuTask(this)">0</button>
+            <button class="simboli" id="." onclick="inpuTask(this)">.</button>
+            <button class="simboli" id="+" onclick="inpuTask(this)">+</button>
+        </div>
+        
+        <div id="lastRow">
+            <button id="delBtn" onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="uguale" id="=" onclick="total()">=</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
