@@ -1,86 +1,99 @@
-body{
+body {
     background-image: url("../img/1063.png");
-    
     background-repeat: repeat;
 }
 
-#bottone:active{
-    transform: scale(.8, .8);
+/* Navbar */
+#todo {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
-li{
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    list-style: upper-roman;
-    border: 3px solid rgba(231, 0, 0, 0.719);
-    border-radius: 10px;
-    background-color: rgb(255, 180, 81);
-    color: black;
-    margin-left: 100px;
-    margin-top: 25px;
-    padding: 10px;
-    width: 30%;  
-    transition: transform 1.3s;
-}
-
-li:hover{
-    transform: scale(1.2, 1.2);
-    cursor: url("../img/putin.png"), auto;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,7,255,1) 50%, rgba(255,0,0,1) 100%);
-}
-
-
-#todo{
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-}
-
-h1{
+.neonEffect {
     margin-left: 50px;
-}
-
-.neonEffect{
     animation: neon 1.5s infinite alternate;
     color: #fff;
 }
 
-/* Animazione neon */
-@keyframes neon {
-    
-    0%, 18%, 22%, 25%, 53%, 57%, 100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #0fa,
-        0 0 80px #0fa,
-        0 0 90px #0fa,
-        0 0 100px #0fa,
-        0 0 150px #0fa;
-    
-    }
-    
-    20%, 24%, 55% {        
-        text-shadow: none;
-    }    
-  }
-
-.control{
-    border: 2px solid blue;
+.control {
+    border: 3px solid rgb(0, 0, 153);
     border-radius: 5px;
-    box-shadow: -5px 5px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 10px -1px rgba(0, 0, 0, 0.75);
     width: 75%;
     margin-right: 20px;
+    padding: 10px;
 }
 
-#bottone{
+#bottone {
     border: 2px solid black;
     border-radius: 5px;
-    box-shadow: -5px 5px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -5px 5px 10px -1px rgba(0, 0, 0, 0.75);
     background-color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: bold;
     color: blue;
+}
+
+#bottone:active {
+    transform: scale(.8, .8);
+}
+
+/* Stile lista */
+li {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    list-style: upper-roman;
+    border: 3px solid rgba(231, 0, 0, 0.719);
+    border-radius: 10px;
+    background-color: rgb(255, 180, 81);
+    color: rgb(0, 0, 0);
+    margin-left: 100px;
+    margin-top: 25px;
+    padding: 10px;
+    width: 30%;
+    transition: transform 1.3s;
+}
+
+li:hover {
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+    background-color: rgb(1, 236, 158);
+    text-shadow: 0 0 4px #fff,
+                 0 0 11px #fff,
+                 0 0 19px #fff,
+                 0 0 40px #0fa,
+                 0 0 80px #0fa,
+                 0 0 90px #0fa,
+                 0 0 100px #0fa,
+                 0 0 150px #0fa;
+                
+}
+
+/* Animazione neon */
+@keyframes neon {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #0fa,
+            0 0 80px #0fa,
+            0 0 90px #0fa,
+            0 0 100px #0fa,
+            0 0 150px #0fa;
+    }
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
 }
 
