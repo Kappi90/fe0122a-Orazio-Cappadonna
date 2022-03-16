@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(168, 247, 220, 0.795);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+label{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(228, 225, 225, 0.815);
+}
+
+#container{
+    padding: 15px;
+}
+
+#figlio, #madre{
+    margin: 20px;
+    padding: 15px;
+}
+
+button{
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 7px;
+}
