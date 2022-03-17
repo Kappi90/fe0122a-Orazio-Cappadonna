@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#container{
+    padding: 15px;
+}
+
+input, label{
+    margin-bottom: 10px;
+}
