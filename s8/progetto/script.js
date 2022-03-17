@@ -29,13 +29,16 @@ fetch('Abbigliamento.json')
     data.forEach(function (item) {
         var abbigliamento = new Abbigliamento(item.id, item.codprod, item.collezione, item.capo, item.modello, item.quantita, item.colore, item.prezzoivaesclusa, item.prezzoivainclusa, item.disponibile, item.saldo);
         console.log(abbigliamento);
-        console.log("Il prezzo del capo scontato è: " + (abbigliamento.getAcquistoCapo().toFixed(2)));
+        console.log("Il prezzo del capo " + abbigliamento.capo + " scontato è: " + (abbigliamento.getAcquistoCapo().toFixed(2)) + "€");
     });
 });
 //Creo 3 nuove istanze
 var maglietta = new Abbigliamento(6, 7788, 'inverno', 't-shirt', 2314, 6, 'black', 18, 22, 'negozio', 15);
 console.log(maglietta);
+console.log("Il prezzo del capo " + maglietta.capo + " scontato è: " + (maglietta.getAcquistoCapo().toFixed(2)) + "€");
 var jeans = new Abbigliamento(7, 6544, 'primavera', 'pantalone', 9812, 3, 'blue', 25, 31, 'magazzino', 20);
 console.log(jeans);
+console.log("Il prezzo del capo " + jeans.capo + " scontato è: " + (jeans.getAcquistoCapo().toFixed(2)) + "€");
 var scarpe = new Abbigliamento(8, 5589, 'estate', 'scarpe', 3020, 2, 'white', 45, 58, 'negozio', 25);
 console.log(scarpe);
+console.log("Il prezzo del capo " + scarpe.capo + " scontato è: " + (scarpe.getAcquistoCapo().toFixed(2)) + "€");
