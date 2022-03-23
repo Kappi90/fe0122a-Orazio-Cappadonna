@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(203, 50, 52);
+    background: linear-gradient(90deg, #cb3234 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 146, 70, 1) 100%);
+    padding: 15px;
+}
+
+header img {
+    max-width: 120px;
+}
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+}
+#cont{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+#divisore{
+    margin-top: 25px;
+    height: 40px;
+    background: rgb(203, 50, 52);
+    background: linear-gradient(90deg, #cb3234 0%, rgba(255, 255, 255, 1) 50%, rgba(0, 146, 70, 1) 100%);
+}
+#contenuto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contenuto p{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img{
+    max-width: 150px;
+}
+
+label{
+    margin-right: 20px;
+    text-transform: uppercase;
+
+}
